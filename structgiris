@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+ struct student{
+ 	char isim[23];
+ 	char soyisim[23];
+ 	int numara;
+ 	int yas;
+ };
+
+int main() {
+	
+	struct student ahmet= { "ahmet", "koc", 686, 21};
+	
+	printf("%s %s %d %d", ahmet.isim, ahmet.soyisim, ahmet.numara, ahmet.yas);
+	
+	return 0;
+}
